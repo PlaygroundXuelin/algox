@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algos.iml" filepath="$PROJECT_DIR$/algos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gosrc.iml" filepath="$PROJECT_DIR$/gosrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python/python.iml" filepath="$PROJECT_DIR$/python/python.iml" />
     </modules>
   </component>
 </project>
