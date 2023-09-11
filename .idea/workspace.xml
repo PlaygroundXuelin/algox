@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa4406a-04e6-41c1-b739-e2503054ef9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python/algox/insertIntervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/algox/numOfConnectedComp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/langchain/example0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0fa4406a-04e6-41c1-b739-e2503054ef9e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +62,7 @@
   }
 }]]></component>
   <component name="ReplState" timestamp="1690437459676">{:repl-history {:ide [], :local [], :remote []}}</component>
-  <component name="RunManager" selected="Python.insertIntervals">
+  <component name="RunManager" selected="Python.mergeIntervals">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -204,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="longestConsecutiveSeq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mergeIntervals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,7 +211,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/algox/longestConsecutiveSeq.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/algox/mergeIntervals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,6 +312,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mergeIntervals" />
         <item itemvalue="Python.insertIntervals" />
         <item itemvalue="Python.numOfConnectedComp" />
       </list>
@@ -354,7 +349,7 @@
       <workItem from="1693116515504" duration="67000" />
       <workItem from="1693116592542" duration="2249000" />
       <workItem from="1693814302165" duration="2024000" />
-      <workItem from="1694379169258" duration="8039000" />
+      <workItem from="1694379169258" duration="8824000" />
     </task>
     <servers />
   </component>
@@ -386,7 +381,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <condition expression="index == 2" language="Python" />
           <url>file://$PROJECT_DIR$/python/algox/insertIntervals.py</url>
-          <line>52</line>
+          <line>51</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -397,14 +392,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/python/algox/insertIntervals.py</url>
-          <line>58</line>
+          <line>57</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/algox/mergeIntervals.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algox$numOfConnectedComp.coverage" NAME="numOfConnectedComp Coverage Results" MODIFIED="1693117121695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/algox" />
-    <SUITE FILE_PATH="coverage/algox$insertIntervals.coverage" NAME="insertIntervals Coverage Results" MODIFIED="1694399888722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/algox" />
+    <SUITE FILE_PATH="coverage/algox$insertIntervals.coverage" NAME="insertIntervals Coverage Results" MODIFIED="1694400165459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/algox" />
+    <SUITE FILE_PATH="coverage/algox$mergeIntervals.coverage" NAME="mergeIntervals Coverage Results" MODIFIED="1694406222328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/algox" />
   </component>
 </project>
